@@ -10,7 +10,7 @@ export default function Home() {
       <main className="w-11/12 md:w-[90%] mb-20 md:mb-0 mx-auto grid gap-5 md:grid-cols-2 md:place-content-start md:my-32">
         <div className="mb-24 md:mb-16">
           <h1 className="text-3xl md:text-7xl mt-10 md:mt-0">A cleaner, fresher and safer home awaits ⤼ Invest in a healthier lifestyle!</h1>
-          <p className="mt-7 leading-loose">Because of our high standards, families continue to be delighted with our unmatched cleaning service throughout Miami. We hand pick our team members and make sure they are properly trained before providing cleaning services to your home. This is why when we say “We are the best choice to get your home cleaned in Miami”, we mean it! We strive to make your experience with us both easy and enjoyable. </p>
+          <p className="mt-7 leading-loose">Because of our high standards, families continue to be delighted with our unmatched cleaning service throughout Miami. We hand pick our team members and make sure they are properly trained before providing cleaning services to your home. This is why when we say We are the best choice to get your home cleaned in Miami, we mean it! We strive to make your experience with us both easy and enjoyable. </p>
         </div>
         <div>
           <Image loading="lazy" className="mx-auto imagen-scroll" src={'/imagen.jpg'} width={400} height={200} alt="texto imagen" />
@@ -18,7 +18,7 @@ export default function Home() {
       </main>
       <aside className="relative flex flex-col gap-5 justify-center items-center h-[90vh] bg-hero-pattern bg-cover bg-center overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-65 mix-blend-normal"></div>
-        <p className="z-20 text-white text-xl md:text-4xl lg:text-7xl">"Amazing Service"</p>
+        <p className="z-20 text-white text-xl md:text-4xl lg:text-7xl">Amazing Service</p>
         <p className="z-20 text-white text-xl italic md:text-4xl lg:text-xl">-Jimmy Butler Management </p>
       </aside>
       <section className="w-11/12 md:w-[90%] mx-auto md:grid md:grid-cols-2 place-content-center items-center my-10">
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className="md:flex md:flex-col md:justify-evenly md:h-full">
           <Image loading="lazy" className="mx-auto imagen-scroll" src={'/imagen-3.png'} width={400} height={200} alt="texto imagen" />
-          <p className="mt-7 leading-loose md:leading-10 md:text-xl italic w-10/12 md:w-9/12 mx-auto">“Our cleaning services provide the optimum experience. We ensure that our cleaners are properly trained to provide every client with a seamless experience. We use single-use and non toxic products to ensure a clean and healthier environment” </p>
+          <p className="mt-7 leading-loose md:leading-10 md:text-xl italic w-10/12 md:w-9/12 mx-auto">Our cleaning services provide the optimum experience. We ensure that our cleaners are properly trained to provide every client with a seamless experience. We use single-use and non toxic products to ensure a clean and healthier environment </p>
         </div>
       </section>
       <section className="bg-[#DFE0DB] pt-16 pb-10">
@@ -54,7 +54,7 @@ export default function Home() {
         </div>
         <div className="gid place-content-center text-center">
           <h2 className="text-3xl md:text-7xl mt-10 md:mt-0">Single⤼Use Supplies</h2>
-          <p className="mt-5 text-2xl leading-loose">“The advantages of the single-use concept is ideal, especially during these times, where, for reasons of absolute health and safety, it should not be any other way”</p>
+          <p className="mt-5 text-2xl leading-loose">The advantages of the single-use concept is ideal, especially during these times, where, for reasons of absolute health and safety, it should not be any other way</p>
           <p className="italic my-10">-Dr Sunny Khachatryan</p>
           <Image loading="lazy" className="imagen-scroll mx-auto rounded-tl-3xl md:object-cover" src={'/imagen-7.png'} width={400} height={200} alt="texto imagen" />
         </div>
