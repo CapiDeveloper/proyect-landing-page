@@ -1,6 +1,6 @@
 import { inter } from "@/config/fonts";
 import "./globals.css";
-import { BottomTop, TopMenu } from "@/components/index";
+import { BottomTop, Footer, TopMenu } from "@/components/index";
 
 
 export const metadata = {
@@ -13,8 +13,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <TopMenu />
-        {children}</body>
+        {children}
         <BottomTop />
+        <Footer />
+      </body>
     </html>
   );
 }

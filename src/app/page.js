@@ -1,6 +1,5 @@
-import { ButtonBook, ShareIcons } from "@/components";
+import { ButtonBook } from "@/components";
 import Image from "next/image";
-import Link from "next/link";
 import { IoIosArrowDown } from "react-icons/io";
 
 export default function Home() {
@@ -11,7 +10,7 @@ export default function Home() {
       </aside>
       <main className="w-11/12 md:w-[90%] mb-20 md:mb-0 mx-auto grid gap-5 md:grid-cols-2 md:place-content-start md:my-32">
         <div className="mb-24 md:mb-16">
-          <h1 className="text-3xl md:text-7xl mt-10 md:mt-0">A cleaner, fresher and safer home awaits ⤼ Invest in a healthier lifestyle!</h1>
+          <h1 className={`text-3xl md:text-7xl mt-10 md:mt-0`}>A cleaner, fresher and safer home awaits ⤼ Invest in a healthier lifestyle!</h1>
           <p className="mt-7 leading-loose">Because of our high standards, families continue to be delighted with our unmatched cleaning service throughout Connecticut and Rhode Island. We know and trust our Big Brothers employees on a personal and professional level. Our cleaning PROs undergo thorough background checks prior to employment and are bonded and insured. That&apos;s why when we say we&apos;re the best choice to clean your home in a reasonable amount of time, we mean it! We strive to make your experience with us both easy and enjoyable! And while we strive to help our employees work to their greatest ability, we also make sure to have fun. Because when you love what you do, it shows in your work.</p>
         </div>
         <div>
@@ -119,19 +118,6 @@ export default function Home() {
         </div>
         <ButtonBook />  
       </section>
-      <footer className="flex flex-col items-center gap-5 my-16">
-        <Image src={"/idioma.png"} alt="I we speak spanish" width={300} height={200} />
-        <h2 className="text-xl font-semibold md:text-2xl">Have questions? Text Us.</h2>
-        <a href="tel:860-625-5761" target="_blank" className="text-xl md:text-2xl">860-625-5761 </a>
-        <ShareIcons />
-        <ul className="flex flex-col items-center gap-2">
-          <li><Link className="text-center border-b-[1px] border-b-black text-lg" href={"#"}>Disclaimer</Link></li>
-          <li><Link className="text-center border-b-[1px] border-b-black text-lg" href={"#"}>Privacy Policy</Link></li>
-          <li><Link className="text-center border-b-[1px] border-b-black text-lg" href={"#"}>Terms and Conditions</Link></li>
-        </ul>
-        <p className="text-lg">25 Garfield Ave New London CT 06320 </p>
-        <p>© 2024 BigBrothersCT. All rights reserved</p>
-      </footer>
     </>
   );
 }

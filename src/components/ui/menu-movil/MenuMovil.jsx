@@ -10,7 +10,7 @@ export const MenuMovil = () => {
 
   return (
     <>
-      <div className={`${ isOpenMenu? 'flex':'hidden' } flex-col justify-between items-center absolute top-16 right-0 w-full ml-0 h-[90vh] bg-white gap-5 py-5`}>
+      <div className={`${ isOpenMenu? 'flex':'hidden' } flex-col justify-between items-center absolute top-16 right-0 w-full ml-0 h-[90vh] bg-white gap-5 py-5 z-[1000]`}>
         <MainMenu />
         <ShareIcons />
         <ButtonBook />

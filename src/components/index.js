@@ -5,3 +5,4 @@ export * from "./ui/top-menu/TopMenu";
 export * from "./ui/menu-hamburguer/MenuHamburguer";
 export * from "./ui/menu-movil/MenuMovil";
 export * from "./ui/bottom-top/BottomTop";
+export * from "./ui/footer/Footer";

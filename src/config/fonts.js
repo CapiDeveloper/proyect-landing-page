@@ -1,4 +1,4 @@
-import { Inter, Montserrat_Alternates } from "next/font/google";
+import { Inter, Kalnia, Montserrat_Alternates } from "next/font/google";
 
 export const inter = Inter({ subsets: ["latin"] });
-export const titleFont = Montserrat_Alternates({ subsets: ["latin"], weight: ['400','700','900'] });
+export const titleFont = Kalnia({ subsets: ["latin"], weight:["700"] });
