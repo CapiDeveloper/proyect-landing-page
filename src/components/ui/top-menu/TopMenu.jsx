@@ -9,7 +9,7 @@ export const TopMenu = () => {
       <nav className="flex justify-between items-center w-full px-5 lg:px-0 py-4 lg:w-11/12 lg:mx-auto lg:grid lg:grid-cols-3">
         <ul className="hidden lg:flex md:gap-5">
           <li><Link className="xl:text-2xl link-underline" href={'/'}>About</Link></li>
-          <li><Link className="xl:text-2xl link-underline" href={'/'}>Amin</Link></li>
+          <li><Link className="xl:text-2xl link-underline" href={'/services'}>Services</Link></li>
           <li><Link className="xl:text-2xl link-underline" href={'/'}>Deep</Link></li>
           <li><Link className="xl:text-2xl link-underline" href={'/'}>Reviews</Link></li>
         </ul>

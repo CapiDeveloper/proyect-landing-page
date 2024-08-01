@@ -9,8 +9,8 @@ export const MainMenu = () => {
                 </Link>
             </li>
             <li>
-                <Link className="border-b-[1px] border-b-black text-3xl" href={"/"}  >
-                    Standard
+                <Link className="border-b-[1px] border-b-black text-3xl" href={"/services"}  >
+                    Services
                 </Link>
             </li>
             <li>
