@@ -14,7 +14,7 @@ export const TopMenu = () => {
           <li><Link className="xl:text-2xl link-underline" href={'/'}>Reviews</Link></li>
         </ul>
         <div className="pr-5">
-          <Image className="lg:w-80" src={'/logo.png'} alt="Logo de la empresa" title="Nombre de la empresa" height={120} width={120} />
+          <Image className="lg:w-80" src={'/big-brother-logo.png'} alt="Logo de la empresa" title="Nombre de la empresa" height={120} width={120} />
         </div>
         <MenuMovil />
         <div className="hidden lg:flex-1 lg:w-full lg:flex lg:items-center lg:justify-between">

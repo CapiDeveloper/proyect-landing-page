@@ -1,49 +1,43 @@
 import { titleFont } from "@/config/fonts"
 
-const stats = [
-    { label: 'Transactions every 24 hours', value: '44 million' },
-    { label: 'Assets under holding', value: '$119 trillion' },
-    { label: 'New users annually', value: '46,000' },
-]
-
 const values = [
     {
-        name: 'Emergency Cleaning',
+        name: "Emergency Cleaning",
         description:
-            'Our team of cleaning experts is available round the clock to tackle any cleaning emergency, from sudden spills to post-party cleanups.',
+            "Our team of cleaning experts is available round the clock to tackle any cleaning emergency, from sudden spills to post-party cleanups.",
     },
     {
-        name: 'Deep Cleaning',
+        name: "Deep Cleaning",
         description:
             "We eliminate the toughest dirt, and you'll enjoy sparkling and germ-free spaces. Experience the excellence of our work. ",
     },
     {
-        name: 'Move Out / In ',
+        name: "Move Out / In",
         description:
             "Whether you're moving out of your old home or moving into a new one, we'll leave everything clean, fresh, and your space healthy.",
     },
     {
-        name: 'Regular Cleaning ',
+        name: "Regular Cleaning",
         description:
             "We leave no detail unattended. Our regular cleaning will create a fresh and healthy environment in every corner. ",
     },
     {
-        name: 'Post Construction ',
+        name: "Post Construction",
         description:
             "When the dust settles after a renovation or construction project, our expert team swoops in to restore your space to its pristine condition. ",
     },
     {
-        name: 'Commercial Cleaning',
+        name: "Commercial Cleaning",
         description:
             'Expert care for your Restaurants, Offices, Organization spaces, and Garages. Ensure a spotless, welcoming environment with our reliable and thorough cleaning solutions tailored to your business needs',
     },
 ]
 const team = [
     {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
+        name: "Michael Foster",
+        role: "Co-Founder / CTO",
         imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+            "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
     },
     // More people...
 ]
@@ -256,7 +250,7 @@ export default function PageServices() {
                 </div>
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <h2 className={`${titleFont.className} text-center text-lg font-semibold leading-8 text-gray-900`}>
-                        Trusted by the world's most innovative teams
+                        Trusted by the world&apos;s most innovative teams
                     </h2>
                     <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
                         <img
