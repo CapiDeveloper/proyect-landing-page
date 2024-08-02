@@ -1,3 +1,5 @@
+import { titleFont } from "@/config/fonts"
+
 const stats = [
     { label: 'Transactions every 24 hours', value: '44 million' },
     { label: 'Assets under holding', value: '$119 trillion' },
@@ -6,34 +8,34 @@ const stats = [
 
 const values = [
     {
-        name: 'Be world-class',
+        name: 'Emergency Cleaning',
         description:
-            'Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.',
+            'Our team of cleaning experts is available round the clock to tackle any cleaning emergency, from sudden spills to post-party cleanups.',
     },
     {
-        name: 'Share everything you know',
+        name: 'Deep Cleaning',
         description:
-            'Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.',
+            "We eliminate the toughest dirt, and you'll enjoy sparkling and germ-free spaces. Experience the excellence of our work. ",
     },
     {
-        name: 'Always learning',
+        name: 'Move Out / In ',
         description:
-            'Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.',
+            "Whether you're moving out of your old home or moving into a new one, we'll leave everything clean, fresh, and your space healthy.",
     },
     {
-        name: 'Be supportive',
+        name: 'Regular Cleaning ',
         description:
-            'Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.',
+            "We leave no detail unattended. Our regular cleaning will create a fresh and healthy environment in every corner. ",
     },
     {
-        name: 'Take responsibility',
+        name: 'Post Construction ',
         description:
-            'Sit minus expedita quam in ullam molestiae dignissimos in harum. Tenetur dolorem iure. Non nesciunt dolorem veniam necessitatibus laboriosam voluptas perspiciatis error.',
+            "When the dust settles after a renovation or construction project, our expert team swoops in to restore your space to its pristine condition. ",
     },
     {
-        name: 'Enjoy downtime',
+        name: 'Commercial Cleaning',
         description:
-            'Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.',
+            'Expert care for your Restaurants, Offices, Organization spaces, and Garages. Ensure a spotless, welcoming environment with our reliable and thorough cleaning solutions tailored to your business needs',
     },
 ]
 const team = [
@@ -88,17 +90,14 @@ export default function PageServices() {
                     />
                 </div>
                 <div className="overflow-hidden">
-                    <div className="mx-auto max-w-7xl px-6 pb-32 pt-20 md:pt-36 sm:pt-60 lg:px-8 lg:pt-32">
+                    <div className="mx-auto max-w-7xl px-6 pb-32 pt-20 sm:pt-10 lg:px-8">
                         <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                             <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                                    We’re changing the way people connect.
+                                <h1 className={`${titleFont.className} text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl`}>
+                                    Our Services
                                 </h1>
                                 <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                                    Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis cupidatat mollit aute velit. Et
-                                    labore commodo nulla aliqua proident mollit ullamco exercitation tempor. Sint aliqua anim nulla sunt
-                                    mollit id pariatur in voluptate cillum. Eu voluptate tempor esse minim amet fugiat veniam occaecat
-                                    aliqua.
+                                    Power washing your property is one of the best ways to make it feel new, fresh, and updated without spending a ton of money. Not to mention, removing mildew, mold, grime and growths from your surfaces will keep them in better condition, for longer.
                                 </p>
                             </div>
                             <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
@@ -157,37 +156,52 @@ export default function PageServices() {
             {/* Content section */}
             <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our mission</h2>
-                    <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
+                    <h2 className={`${titleFont.className} text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl`}>FULL SERVICE JUNK REMOVAL</h2>
+                    <div className="mt-6 grid lg:grid-cols-2 gap-x-8 gap-y-20">
                         <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                             <p className="text-xl leading-8 text-gray-600">
-                                Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam
-                                eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget.
-                                Eleifend egestas fringilla sapien.
+                                We offer just about every kind of junk removal service you can think of. From residential junk removal to commercial junk removal and debris removal to furniture and appliance removal, there is no clean-up job too big or too small.
                             </p>
-                            <div className="mt-10 max-w-xl text-base leading-7 text-gray-700">
-                                <p>
-                                    Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed
-                                    amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius
-                                    sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim.
-                                    Mattis mauris semper sed amet vitae sed turpis id.
-                                </p>
-                                <p className="mt-10">
-                                    Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie
-                                    auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et
-                                    ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-                                </p>
-                            </div>
                         </div>
                         <div className="lg:flex lg:flex-auto lg:justify-center">
-                            <dl className="w-64 space-y-8 xl:w-80">
-                                {stats.map((stat) => (
-                                    <div key={stat.label} className="flex flex-col-reverse gap-y-4">
-                                        <dt className="text-base leading-7 text-gray-600">{stat.label}</dt>
-                                        <dd className="text-5xl font-semibold tracking-tight text-gray-900">{stat.value}</dd>
+                            <div class="grid grid-cols-2 gap-2 md:gap-5">
+                                <div class="flex flex-row bg-white shadow-sm rounded p-4">
+                                    <div class="flex items-center justify-center flex-shrink-0 h-12 w-12 rounded-xl bg-blue-100 text-blue-500">
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                                     </div>
-                                ))}
-                            </dl>
+                                    <div class="flex flex-col flex-grow ml-4">
+                                        <div class="text-sm text-gray-500">Get</div>
+                                        <div class="font-bold text-lg">Impeccable Results</div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row bg-white shadow-sm rounded p-4">
+                                    <div class="flex items-center justify-center flex-shrink-0 h-12 w-12 rounded-xl bg-green-100 text-green-500">
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+                                    </div>
+                                    <div class="flex flex-col flex-grow ml-4">
+                                        <div class="text-sm text-gray-500">Without</div>
+                                        <div class="font-bold text-lg">Damages Or Losses</div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row bg-white shadow-sm rounded p-4">
+                                    <div class="flex items-center justify-center flex-shrink-0 h-12 w-12 rounded-xl bg-orange-100 text-orange-500">
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                                    </div>
+                                    <div class="flex flex-col flex-grow ml-4">
+                                        <div class="text-sm text-gray-500">With A</div>
+                                        <div class="font-bold text-lg">Punctual Service</div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row bg-white shadow-sm rounded p-4">
+                                    <div class="flex items-center justify-center flex-shrink-0 h-12 w-12 rounded-xl bg-red-100 text-red-500">
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                    </div>
+                                    <div class="flex flex-col flex-grow ml-4">
+                                        <div class="text-sm text-gray-500">We Respect</div>
+                                        <div class="font-bold text-lg">Your Privacy</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -205,11 +219,7 @@ export default function PageServices() {
             {/* Values section */}
             <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:mx-0">
-                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our values</h2>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-                        accusamus quisquam.
-                    </p>
+                    <h2 className={`${titleFont.className} text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl`}>Servicios que ofrecemos</h2>
                 </div>
                 <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     {values.map((value) => (
@@ -245,8 +255,8 @@ export default function PageServices() {
                     </svg>
                 </div>
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
-                        Trusted by the world’s most innovative teams
+                    <h2 className={`${titleFont.className} text-center text-lg font-semibold leading-8 text-gray-900`}>
+                        Trusted by the world's most innovative teams
                     </h2>
                     <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
                         <img
@@ -291,10 +301,9 @@ export default function PageServices() {
             {/* Team section */}
             <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-48 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:mx-0">
-                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our team</h2>
+                    <h2 className={`${titleFont.className} text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl`}>Our team</h2>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Sit facilis neque ab nulla vel. Cum eos in laudantium. Temporibus eos totam in dolorum. Nemo vel facere
-                        repellendus ut eos dolores similique.
+                    En bigbrothersct, nuestro equipo de profesionales capacitados se dedica a ofrecer servicios de limpieza de alta calidad. Utilizamos productos y técnicas avanzadas para garantizar espacios impecables y clientes satisfechos.
                     </p>
                 </div>
                 <ul

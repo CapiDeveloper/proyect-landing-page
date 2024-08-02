@@ -1,4 +1,4 @@
-import { inter } from "@/config/fonts";
+import { contentPage } from "@/config/fonts";
 import "./globals.css";
 import { BottomTop, Footer, TopMenu } from "@/components/index";
 
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={contentPage.className}>
         <TopMenu />
         {children}
         <BottomTop />
