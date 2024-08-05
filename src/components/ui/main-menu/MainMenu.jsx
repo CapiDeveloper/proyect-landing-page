@@ -23,7 +23,7 @@ export const MainMenu = () => {
                 </Link>
             </li>
             <li>
-                <Link onClick={closeMenu} className="border-b-[1px] border-b-black text-3xl" href={"/"}  >
+                <Link onClick={closeMenu} className="border-b-[1px] border-b-black text-3xl" href={"/reviews"}  >
                     Reviews
                 </Link>
             </li>
