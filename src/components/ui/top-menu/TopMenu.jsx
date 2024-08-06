@@ -1,4 +1,4 @@
-import { ButtonBook, MenuHamburguer, MenuMovil, ShareIcons } from "@/components/index";
+import { ButtonBook, MenuHamburguer, MenuMovil, ShareIcons } from "./../../../components";
 import Image from "next/image";
 import Link from "next/link";
 

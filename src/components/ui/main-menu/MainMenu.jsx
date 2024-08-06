@@ -1,4 +1,4 @@
-import { useMenu } from "@/store"
+import { useMenu } from "../../../store"
 import Link from "next/link"
 
 export const MainMenu = () => {

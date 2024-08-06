@@ -1,5 +1,5 @@
-import { ButtonBook } from "@/components";
-import { titleFont } from "@/config/fonts";
+import { ButtonBook } from "../components";
+import { titleFont } from "../config/fonts";
 import Image from "next/image";
 import { IoIosArrowDown } from "react-icons/io";
 

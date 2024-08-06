@@ -1,4 +1,4 @@
-import { ShareIcons } from "@/components"
+import { ShareIcons } from "../../../components"
 import Image from "next/image"
 import Link from "next/link"
 

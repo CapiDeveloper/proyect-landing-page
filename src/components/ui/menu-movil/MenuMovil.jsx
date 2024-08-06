@@ -1,8 +1,8 @@
 'use client'
 
-import { ButtonBook, ShareIcons } from "@/components/index";
+import { ButtonBook, ShareIcons } from "../../../components";
 import { MainMenu } from "../main-menu/MainMenu";
-import { useMenu } from "@/store";
+import { useMenu } from "../../../store";
 
 export const MenuMovil = () => {
 

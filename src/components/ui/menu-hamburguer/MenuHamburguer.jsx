@@ -1,6 +1,6 @@
 'use client'
 
-import { useMenu } from "@/store";
+import { useMenu } from "../../../store";
 
 export const MenuHamburguer = () => {
     const openMenu = useMenu((state) => state.openMenu);

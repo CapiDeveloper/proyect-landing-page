@@ -1,7 +1,6 @@
-import { contentPage } from "@/config/fonts";
+import { BottomTop, Footer, TopMenu } from "../components";
+import { contentPage } from "../config/fonts";
 import "./globals.css";
-import { BottomTop, Footer, TopMenu } from "@/components/index";
-
 
 export const metadata = {
   title: "Create Next App",
