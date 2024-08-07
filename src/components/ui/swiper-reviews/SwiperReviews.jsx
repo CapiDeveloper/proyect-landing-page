@@ -80,8 +80,8 @@ export const SwiperReviews = () => {
 
                 className={style.mySwiper}>
                 {
-                    testimonials?.map(item => (
-                        <SwiperSlide><CardReview testimonial={item} /></SwiperSlide>
+                    testimonials?.map((item,index) => (
+                        <SwiperSlide key={index}><CardReview testimonial={item} /></SwiperSlide>
                     ))
                 }
             </Swiper>
