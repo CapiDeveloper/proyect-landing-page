@@ -6,3 +6,5 @@ export * from "./ui/menu-hamburguer/MenuHamburguer";
 export * from "./ui/menu-movil/MenuMovil";
 export * from "./ui/bottom-top/BottomTop";
 export * from "./ui/footer/Footer";
+export * from "./ui/swiper-reviews/SwiperReviews"
+export * from "./ui/card-review/CardReview"

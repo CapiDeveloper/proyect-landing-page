@@ -1,4 +1,19 @@
-import { CardReview, SwiperReviews } from "../../components";
+"use client"
+
+import React from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+import style from './SwiperReviews.module.css';
+
+// import required modules
+import { Autoplay, Navigation } from 'swiper/modules';
+import { CardReview } from '../card-review/CardReview';
+
 
 const testimonials = [
     {
@@ -51,25 +66,25 @@ const testimonials = [
     },
 ]
 
-export default function pageTestimonials() {
+
+export const SwiperReviews = () => {
     return (
-        <main className="bg-black py-24 sm:py-32">
-            <div className="px-6 lg:px-8 md:w-8/12 md:mx-auto">
-                <h1 className="font-bold text-lg text-white md:text-2xl lg:text-5xl border-b-4 w-fit border-b-green-600">Client Reviews</h1>
-                <p className="text-white md:text-xl lg:text-2xl mt-5">Our clients praise us for great results, a healthier alternative and reliable service. Read what a few of our customers had to say:</p>
-                <div>
-                    <SwiperReviews />
-                </div>
-            </div>
-            <div className="mx-auto md:w-10/12 md:mx-auto px-6 lg:px-8">
-                <div className="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
-                    <div className="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
-                        {testimonials.map((testimonial, index) => (
-                            <CardReview key={index} testimonial={testimonial} />
-                        ))}
-                    </div>
-                </div>
-            </div>
-        </main>
-    )
+        <>
+            <Swiper modules={[Autoplay, Navigation]}
+                spaceBetween={30}
+                slidesPerView={1}
+                navigation
+                autoplay={{ delay: 3000, disableOnInteraction: false }}
+                loop={true}
+                onNavigationNext
+
+                className={style.mySwiper}>
+                {
+                    testimonials?.map(item => (
+                        <SwiperSlide><CardReview testimonial={item} /></SwiperSlide>
+                    ))
+                }
+            </Swiper>
+        </>
+    );
 }
