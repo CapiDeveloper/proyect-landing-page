@@ -1,4 +1,6 @@
+import Link from "next/link"
 import { titleFont } from "../../config/fonts"
+import Image from "next/image"
 
 const values = [
     {
@@ -45,119 +47,28 @@ const team = [
 export default function PageServices() {
     return (
         <main className="isolate">
-            {/* Hero section */}
-            <div className="relative isolate -z-10">
-                <svg
-                    aria-hidden="true"
-                    className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
-                >
-                    <defs>
-                        <pattern
-                            x="50%"
-                            y={-1}
-                            id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84"
-                            width={200}
-                            height={200}
-                            patternUnits="userSpaceOnUse"
-                        >
-                            <path d="M.5 200V.5H200" fill="none" />
-                        </pattern>
-                    </defs>
-                    <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
-                        <path
-                            d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
-                            strokeWidth={0}
-                        />
-                    </svg>
-                    <rect fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)" width="100%" height="100%" strokeWidth={0} />
-                </svg>
-                <div
-                    aria-hidden="true"
-                    className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
-                >
-                    <div
-                        style={{
-                            clipPath:
-                                'polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)',
-                        }}
-                        className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
-                    />
-                </div>
-                <div className="overflow-hidden">
-                    <div className="mx-auto max-w-7xl px-6 pb-32 pt-20 sm:pt-10 lg:px-8">
-                        <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-                            <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                                <h1 className={`${titleFont.className} text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl`}>
-                                    Our Services
-                                </h1>
-                                <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                                    Power washing your property is one of the best ways to make it feel new, fresh, and updated without spending a ton of money. Not to mention, removing mildew, mold, grime and growths from your surfaces will keep them in better condition, for longer.
-                                </p>
-                            </div>
-                            <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
-                                <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-                                    <div className="relative">
-                                        <img
-                                            alt=""
-                                            src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                                            className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                                        />
-                                        <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                                    </div>
-                                </div>
-                                <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
-                                    <div className="relative">
-                                        <img
-                                            alt=""
-                                            src="https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                                            className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                                        />
-                                        <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                                    </div>
-                                    <div className="relative">
-                                        <img
-                                            alt=""
-                                            src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80"
-                                            className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                                        />
-                                        <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                                    </div>
-                                </div>
-                                <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
-                                    <div className="relative">
-                                        <img
-                                            alt=""
-                                            src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
-                                            className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                                        />
-                                        <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                                    </div>
-                                    <div className="relative">
-                                        <img
-                                            alt=""
-                                            src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                                            className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                                        />
-                                        <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <aside className="w-11/12 md:w-10/12 rounded-2xl mt-10 mx-auto relative flex flex-col gap-5 justify-center md:justify-end md:items-start items-center h-[80vh] bg-hero-pattern bg-cover bg-center overflow-hidden">
+                <div className="absolute inset-0 bg-black opacity-65 mix-blend-normal"></div>
+                <p className="z-20 text-white text-2xl text-center font-bold md:text-4xl md:p-5">Discover Our Services</p>
+            </aside>
+            <div className="w-11/12 mx-auto md:w-10/12 mt-5 flex flex-col items-center md:items-end">
+                <p className="text-center">Click button below to book or get help immediately</p>
+                <a href="tel:860-625-5761">
+                    <Image src={"/boton-call.png"} alt="Button for call" width={245} height={80} />
+                </a>
             </div>
 
             {/* Content section */}
             <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-                    <h2 className={`${titleFont.className} text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl`}>FULL SERVICE JUNK REMOVAL</h2>
-                    <div className="mt-6 grid lg:grid-cols-2 gap-x-8 gap-y-20">
+                    <h2 className={`${titleFont.className} text-center mt-14 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl`}>Services</h2>
+                    <div className="mt-6 grid lg:grid-cols-2 gap-x-8 items-center gap-y-20">
                         <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                             <p className="text-xl leading-8 text-gray-600">
                                 We offer just about every kind of junk removal service you can think of. From residential junk removal to commercial junk removal and debris removal to furniture and appliance removal, there is no clean-up job too big or too small.
                             </p>
                         </div>
-                        <div className="lg:flex lg:flex-auto lg:justify-center">
+                        <div className="lg:flex lg:flex-auto lg:justify-center items-center">
                             <div class="grid sm:grid-cols-2 gap-2 md:gap-5">
                                 <div class="flex flex-row bg-white shadow-sm rounded p-4">
                                     <div class="flex items-center justify-center flex-shrink-0 h-12 w-12 rounded-xl bg-blue-100 text-blue-500">
@@ -198,121 +109,48 @@ export default function PageServices() {
                             </div>
                         </div>
                     </div>
+                    <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                        {values.map((value) => (
+                            <div key={value.name}>
+                                <dt className="font-semibold text-gray-900">{value.name}</dt>
+                                <dd className="mt-1 text-gray-600">{value.description}</dd>
+                            </div>
+                        ))}
+                    </dl>
                 </div>
             </div>
-
-            {/* Image section */}
-            <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-                <img
-                    alt=""
-                    src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
-                    className="aspect-[5/2] w-full object-cover xl:rounded-3xl"
-                />
-            </div>
-
-            {/* Values section */}
-            <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-                <div className="mx-auto max-w-2xl lg:mx-0">
-                    <h2 className={`${titleFont.className} text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl`}>Servicios que ofrecemos</h2>
-                </div>
-                <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                    {values.map((value) => (
-                        <div key={value.name}>
-                            <dt className="font-semibold text-gray-900">{value.name}</dt>
-                            <dd className="mt-1 text-gray-600">{value.description}</dd>
+            <ul className="grid place-content-center sm:w-11/12 md:w-10/12 items-center mx-auto gap-2 sm:grid-cols-3 mt-10">
+                <li>
+                    <div className="bg-white p-6 rounded-lg shadow-lg text-center max-w-xs">
+                        <div className="relative">
+                            <div className="absolute top-0 left-0 bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold">step 3</div>
+                            <img className="w-full h-56 object-cover rounded-full" src="/imagen-2.jpg" alt="Cleaning Team" />
                         </div>
-                    ))}
-                </dl>
-            </div>
-
-            {/* Logo cloud */}
-            <div className="relative isolate -z-10 mt-32 sm:mt-48">
-                <div className="absolute inset-x-0 top-1/2 -z-10 flex -translate-y-1/2 justify-center overflow-hidden [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]">
-                    <svg aria-hidden="true" className="h-[40rem] w-[80rem] flex-none stroke-gray-200">
-                        <defs>
-                            <pattern
-                                x="50%"
-                                y="50%"
-                                id="e9033f3e-f665-41a6-84ef-756f6778e6fe"
-                                width={200}
-                                height={200}
-                                patternUnits="userSpaceOnUse"
-                                patternTransform="translate(-100 0)"
-                            >
-                                <path d="M.5 200V.5H200" fill="none" />
-                            </pattern>
-                        </defs>
-                        <svg x="50%" y="50%" className="overflow-visible fill-gray-50">
-                            <path d="M-300 0h201v201h-201Z M300 200h201v201h-201Z" strokeWidth={0} />
-                        </svg>
-                        <rect fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)" width="100%" height="100%" strokeWidth={0} />
-                    </svg>
-                </div>
-                <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <h2 className={`${titleFont.className} text-center text-lg font-semibold leading-8 text-gray-900`}>
-                        Trusted by the world&apos;s most innovative teams
-                    </h2>
-                    <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-                        <img
-                            alt="Transistor"
-                            src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
-                            width={158}
-                            height={48}
-                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        />
-                        <img
-                            alt="Reform"
-                            src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
-                            width={158}
-                            height={48}
-                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        />
-                        <img
-                            alt="Tuple"
-                            src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
-                            width={158}
-                            height={48}
-                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        />
-                        <img
-                            alt="SavvyCal"
-                            src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-                            width={158}
-                            height={48}
-                            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                        />
-                        <img
-                            alt="Statamic"
-                            src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-                            width={158}
-                            height={48}
-                            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                        />
+                        <h2 className="mt-6 text-xl font-bold">The Cleaning</h2>
+                        <p className="mt-2 text-gray-600">We are ready to exceed your expectations.</p>
                     </div>
-                </div>
-            </div>
-
-            {/* Team section */}
-            <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-48 lg:px-8">
-                <div className="mx-auto max-w-2xl lg:mx-0">
-                    <h2 className={`${titleFont.className} text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl`}>Our team</h2>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">
-                    En bigbrothersct, nuestro equipo de profesionales capacitados se dedica a ofrecer servicios de limpieza de alta calidad. Utilizamos productos y técnicas avanzadas para garantizar espacios impecables y clientes satisfechos.
-                    </p>
-                </div>
-                <ul
-                    role="list"
-                    className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
-                >
-                    {team.map((person) => (
-                        <li key={person.name}>
-                            <img alt="" src={person.imageUrl} className="mx-auto h-24 w-24 rounded-full" />
-                            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
-                            <p className="text-sm leading-6 text-gray-600">{person.role}</p>
-                        </li>
-                    ))}
-                </ul>
-            </div>
+                </li>
+                <li>
+                    <div className="bg-white p-6 rounded-lg shadow-lg text-center max-w-xs">
+                        <div className="relative">
+                            <div className="absolute top-0 left-0 bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold">step 3</div>
+                            <img className="w-full h-56 object-cover rounded-full" src="/imagen-2.jpg" alt="Cleaning Team" />
+                        </div>
+                        <h2 className="mt-6 text-xl font-bold">The Cleaning</h2>
+                        <p className="mt-2 text-gray-600">We are ready to exceed your expectations.</p>
+                    </div>
+                </li>
+                <li>
+                    <div className="bg-white p-6 rounded-lg shadow-lg text-center max-w-xs">
+                        <div className="relative">
+                            <div className="absolute top-0 left-0 bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold">step 3</div>
+                            <img className="w-full h-56 object-cover rounded-full" src="/imagen-2.jpg" alt="Cleaning Team" />
+                        </div>
+                        <h2 className="mt-6 text-xl font-bold">The Cleaning</h2>
+                        <p className="mt-2 text-gray-600">We are ready to exceed your expectations.</p>
+                    </div>
+                </li>
+            </ul>
         </main>
     )
 }
