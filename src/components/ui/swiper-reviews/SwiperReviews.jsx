@@ -17,55 +17,24 @@ import { CardReview } from '../card-review/CardReview';
 
 const testimonials = [
     {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-        name: 'Leslie Alexander',
-        handle: '2024-05-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-
+        body: 'BigBrothersCT provided outstanding service! My house feels brand new.',
+        name: 'Alberto P.',
+        handle: '2024-07-15',
+        imageUrl: '/cliente-10.jpg',
     },
     {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-        name: 'Leslie Alexander',
-        handle: '2024-05-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-
+        body: 'I am always impressed by the attention to detail and care from BigBrothersCT.',
+        name: 'Cintia M.',
+        handle: '2024-08-05',
+        imageUrl: '/cliente-11.jpg',
     },
     {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-        name: 'Leslie Alexander',
-        handle: '2024-05-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-
-    },
-    {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-        name: 'Leslie Alexander',
-        handle: '2024-05-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-
-    },
-    {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-        name: 'Leslie Alexander',
-        handle: '2024-05-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-
-    },
-    {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-        name: 'Leslie Alexander',
-        handle: '2024-05-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-
+        body: 'The best cleaning service in Connecticut! Highly recommended.',
+        name: 'Chris B.',
+        handle: '2024-08-20',
+        imageUrl: '/cliente-12.jpg',
     },
 ]
-
 
 export const SwiperReviews = () => {
     return (
@@ -79,7 +48,7 @@ export const SwiperReviews = () => {
 
                 className={style.mySwiper}>
                 {
-                    testimonials?.map((item,index) => (
+                    testimonials?.map((item, index) => (
                         <SwiperSlide key={index}><CardReview testimonial={item} /></SwiperSlide>
                     ))
                 }

@@ -2,54 +2,61 @@ import { CardReview, SwiperReviews } from "../../components";
 
 const testimonials = [
     {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-        name: 'Leslie Alexander',
-        handle: '2024-05-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-
+        body: 'BigBrothersCT transformed my home! I couldn\'t be happier with the spotless results.',
+        name: 'Emily H.',
+        handle: '2024-01-12',
+        imageUrl: '/cliente-2.jpg',
     },
     {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-        name: 'Leslie Alexander',
-        handle: '2024-05-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-
+        body: 'Amazing service! My apartment looks brand new after every cleaning.',
+        name: 'David S.',
+        handle: '2024-02-12',
+        imageUrl: '/cliente-1.jpg',
     },
     {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-        name: 'Leslie Alexander',
-        handle: '2024-05-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-
+        body: 'BigBrothersCT is reliable, thorough, and professional. Highly recommend!',
+        name: 'Lisa K.',
+        handle: '2024-03-12',
+        imageUrl: '/cliente-6.jpg',
     },
     {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-        name: 'Leslie Alexander',
-        handle: '2024-05-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-
+        body: 'They go above and beyond! My house has never been cleaner.',
+        name: 'Mark D.',
+        handle: '2024-04-12',
+        imageUrl: '/cliente-7.jpg',
     },
     {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-        name: 'Leslie Alexander',
+        body: 'Quick, efficient, and always leave my home sparkling. BigBrothersCT is the best!',
+        name: 'Rachel F.',
         handle: '2024-05-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-
+        imageUrl: '/cliente-5.jpg',
     },
     {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
-        name: 'Leslie Alexander',
-        handle: '2024-05-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-
+        body: 'I can always count on BigBrothersCT for a deep clean that lasts.',
+        name: 'Tom W.',
+        handle: '2024-06-12',
+        imageUrl: '/cliente-3.jpg',
     },
-]
+    {
+        body: 'Incredible attention to detail! My home feels fresh and welcoming after every visit.',
+        name: 'Susan M.',
+        handle: '2024-07-12',
+        imageUrl: '/cliente-4.jpg',
+    },
+    {
+        body: 'BigBrothersCT never disappoints. Their service is top-notch every time.',
+        name: 'Paul J.',
+        handle: '2024-08-12',
+        imageUrl: '/cliente-8.jpg',
+    },
+    {
+        body: 'Friendly staff, impeccable cleaning. BigBrothersCT has earned my trust.',
+        name: 'Amanda L.',
+        handle: '2024-09-12',
+        imageUrl: '/cliente-9.jpg',
+    },
+];
+
 
 export default function pageTestimonials() {
     return (
